@@ -14,7 +14,7 @@
     [super viewDidLoad];
 }
 - (IBAction)Action:(UIButton *)sender {
-    [self setAnimations:sender.currentTitle AndInteger:sender.tag];
+    [self setAnimations:sender.currentTitle AndInteger:(int)sender.tag];
 }
 -(void)setAnimations:(NSString* )name AndInteger:(int)integer{
     if ([self.tom isAnimating]) return;
