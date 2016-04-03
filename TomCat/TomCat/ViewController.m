@@ -48,12 +48,19 @@
     NSMutableArray* arr=[NSMutableArray array];
     for (int i=0; i<integer; i++) {
         NSString* imageName=[NSString stringWithFormat:@"%@_%02d.jpg",name,i];
-        UIImage* image=[UIImage imageNamed:imageName];
+        NSString* path=[[NSBundle mainBundle]pathForResource:imageName ofType:nil];
+        UIImage* image=[UIImage imageWithContentsOfFile:path];
         [arr addObject:image];
     }
     self.tom.animationImages=arr;
     self.tom.animationRepeatCount=1;
     self.tom.animationDuration=arr.count*0.075;
     [self.tom startAnimating];
+    //动画结束后，清理内存
+//    [self performSelector:@selector(clearup) withObject:nil afterDelay:self.tom.animationDuration];
+    [self.tom performSelector:@selector(setAnimationImages:) withObject:nil afterDelay:self.tom.animationDuration];
 }
+//-(void)clearup{
+//    self.tom.animationImages=nil;
+//}
 @end
