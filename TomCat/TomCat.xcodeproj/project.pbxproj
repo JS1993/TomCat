@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF790A971CB119E800641C44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF790A961CB119E800641C44 /* main.m */; };
+		CF790A9A1CB119E800641C44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF790A991CB119E800641C44 /* AppDelegate.m */; };
+		CF790A9D1CB119E800641C44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF790A9C1CB119E800641C44 /* ViewController.m */; };
+		CF790AA01CB119E800641C44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF790A9E1CB119E800641C44 /* Main.storyboard */; };
+		CF790AA31CB119E800641C44 /* TomCat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF790AA11CB119E800641C44 /* TomCat.xcdatamodeld */; };
+		CF790AA51CB119E800641C44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF790AA41CB119E800641C44 /* Assets.xcassets */; };
+		CF790AA81CB119E800641C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF790AA61CB119E800641C44 /* LaunchScreen.storyboard */; };
+		CF790AB31CB119E800641C44 /* TomCatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF790AB21CB119E800641C44 /* TomCatTests.m */; };
+		CF790ABE1CB119E800641C44 /* TomCatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF790ABD1CB119E800641C44 /* TomCatUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF790AAF1CB119E800641C44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF790A8A1CB119E800641C44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF790A911CB119E800641C44;
+			remoteInfo = TomCat;
+		};
+		CF790ABA1CB119E800641C44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF790A8A1CB119E800641C44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF790A911CB119E800641C44;
+			remoteInfo = TomCat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF790A921CB119E800641C44 /* TomCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF790A961CB119E800641C44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF790A981CB119E800641C44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF790A991CB119E800641C44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF790A9B1CB119E800641C44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF790A9C1CB119E800641C44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF790A9F1CB119E800641C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF790AA21CB119E800641C44 /* TomCat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TomCat.xcdatamodel; sourceTree = "<group>"; };
+		CF790AA41CB119E800641C44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF790AA71CB119E800641C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF790AA91CB119E800641C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF790AAE1CB119E800641C44 /* TomCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF790AB21CB119E800641C44 /* TomCatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TomCatTests.m; sourceTree = "<group>"; };
+		CF790AB41CB119E800641C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF790AB91CB119E800641C44 /* TomCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF790ABD1CB119E800641C44 /* TomCatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TomCatUITests.m; sourceTree = "<group>"; };
+		CF790ABF1CB119E800641C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF790A8F1CB119E800641C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF790AAB1CB119E800641C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF790AB61CB119E800641C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF790A891CB119E800641C44 = {
+			isa = PBXGroup;
+			children = (
+				CF790A941CB119E800641C44 /* TomCat */,
+				CF790AB11CB119E800641C44 /* TomCatTests */,
+				CF790ABC1CB119E800641C44 /* TomCatUITests */,
+				CF790A931CB119E800641C44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF790A931CB119E800641C44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF790A921CB119E800641C44 /* TomCat.app */,
+				CF790AAE1CB119E800641C44 /* TomCatTests.xctest */,
+				CF790AB91CB119E800641C44 /* TomCatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF790A941CB119E800641C44 /* TomCat */ = {
+			isa = PBXGroup;
+			children = (
+				CF790A981CB119E800641C44 /* AppDelegate.h */,
+				CF790A991CB119E800641C44 /* AppDelegate.m */,
+				CF790A9B1CB119E800641C44 /* ViewController.h */,
+				CF790A9C1CB119E800641C44 /* ViewController.m */,
+				CF790A9E1CB119E800641C44 /* Main.storyboard */,
+				CF790AA41CB119E800641C44 /* Assets.xcassets */,
+				CF790AA61CB119E800641C44 /* LaunchScreen.storyboard */,
+				CF790AA91CB119E800641C44 /* Info.plist */,
+				CF790AA11CB119E800641C44 /* TomCat.xcdatamodeld */,
+				CF790A951CB119E800641C44 /* Supporting Files */,
+			);
+			path = TomCat;
+			sourceTree = "<group>";
+		};
+		CF790A951CB119E800641C44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF790A961CB119E800641C44 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF790AB11CB119E800641C44 /* TomCatTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF790AB21CB119E800641C44 /* TomCatTests.m */,
+				CF790AB41CB119E800641C44 /* Info.plist */,
+			);
+			path = TomCatTests;
+			sourceTree = "<group>";
+		};
+		CF790ABC1CB119E800641C44 /* TomCatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF790ABD1CB119E800641C44 /* TomCatUITests.m */,
+				CF790ABF1CB119E800641C44 /* Info.plist */,
+			);
+			path = TomCatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF790A911CB119E800641C44 /* TomCat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF790AC21CB119E800641C44 /* Build configuration list for PBXNativeTarget "TomCat" */;
+			buildPhases = (
+				CF790A8E1CB119E800641C44 /* Sources */,
+				CF790A8F1CB119E800641C44 /* Frameworks */,
+				CF790A901CB119E800641C44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TomCat;
+			productName = TomCat;
+			productReference = CF790A921CB119E800641C44 /* TomCat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF790AAD1CB119E800641C44 /* TomCatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF790AC51CB119E800641C44 /* Build configuration list for PBXNativeTarget "TomCatTests" */;
+			buildPhases = (
+				CF790AAA1CB119E800641C44 /* Sources */,
+				CF790AAB1CB119E800641C44 /* Frameworks */,
+				CF790AAC1CB119E800641C44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF790AB01CB119E800641C44 /* PBXTargetDependency */,
+			);
+			name = TomCatTests;
+			productName = TomCatTests;
+			productReference = CF790AAE1CB119E800641C44 /* TomCatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF790AB81CB119E800641C44 /* TomCatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF790AC81CB119E800641C44 /* Build configuration list for PBXNativeTarget "TomCatUITests" */;
+			buildPhases = (
+				CF790AB51CB119E800641C44 /* Sources */,
+				CF790AB61CB119E800641C44 /* Frameworks */,
+				CF790AB71CB119E800641C44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF790ABB1CB119E800641C44 /* PBXTargetDependency */,
+			);
+			name = TomCatUITests;
+			productName = TomCatUITests;
+			productReference = CF790AB91CB119E800641C44 /* TomCatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF790A8A1CB119E800641C44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF790A911CB119E800641C44 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF790AAD1CB119E800641C44 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF790A911CB119E800641C44;
+					};
+					CF790AB81CB119E800641C44 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF790A911CB119E800641C44;
+					};
+				};
+			};
+			buildConfigurationList = CF790A8D1CB119E800641C44 /* Build configuration list for PBXProject "TomCat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF790A891CB119E800641C44;
+			productRefGroup = CF790A931CB119E800641C44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF790A911CB119E800641C44 /* TomCat */,
+				CF790AAD1CB119E800641C44 /* TomCatTests */,
+				CF790AB81CB119E800641C44 /* TomCatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF790A901CB119E800641C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF790AA81CB119E800641C44 /* LaunchScreen.storyboard in Resources */,
+				CF790AA51CB119E800641C44 /* Assets.xcassets in Resources */,
+				CF790AA01CB119E800641C44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF790AAC1CB119E800641C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF790AB71CB119E800641C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF790A8E1CB119E800641C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF790A9D1CB119E800641C44 /* ViewController.m in Sources */,
+				CF790A9A1CB119E800641C44 /* AppDelegate.m in Sources */,
+				CF790A971CB119E800641C44 /* main.m in Sources */,
+				CF790AA31CB119E800641C44 /* TomCat.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF790AAA1CB119E800641C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF790AB31CB119E800641C44 /* TomCatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF790AB51CB119E800641C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF790ABE1CB119E800641C44 /* TomCatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF790AB01CB119E800641C44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF790A911CB119E800641C44 /* TomCat */;
+			targetProxy = CF790AAF1CB119E800641C44 /* PBXContainerItemProxy */;
+		};
+		CF790ABB1CB119E800641C44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF790A911CB119E800641C44 /* TomCat */;
+			targetProxy = CF790ABA1CB119E800641C44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF790A9E1CB119E800641C44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF790A9F1CB119E800641C44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF790AA61CB119E800641C44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF790AA71CB119E800641C44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF790AC01CB119E800641C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF790AC11CB119E800641C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF790AC31CB119E800641C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TomCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.TomCat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF790AC41CB119E800641C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TomCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.TomCat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF790AC61CB119E800641C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TomCatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.TomCatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TomCat.app/TomCat";
+			};
+			name = Debug;
+		};
+		CF790AC71CB119E800641C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TomCatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.TomCatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TomCat.app/TomCat";
+			};
+			name = Release;
+		};
+		CF790AC91CB119E800641C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TomCatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.TomCatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TomCat;
+			};
+			name = Debug;
+		};
+		CF790ACA1CB119E800641C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TomCatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.TomCatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TomCat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF790A8D1CB119E800641C44 /* Build configuration list for PBXProject "TomCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF790AC01CB119E800641C44 /* Debug */,
+				CF790AC11CB119E800641C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF790AC21CB119E800641C44 /* Build configuration list for PBXNativeTarget "TomCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF790AC31CB119E800641C44 /* Debug */,
+				CF790AC41CB119E800641C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF790AC51CB119E800641C44 /* Build configuration list for PBXNativeTarget "TomCatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF790AC61CB119E800641C44 /* Debug */,
+				CF790AC71CB119E800641C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF790AC81CB119E800641C44 /* Build configuration list for PBXNativeTarget "TomCatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF790AC91CB119E800641C44 /* Debug */,
+				CF790ACA1CB119E800641C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF790AA11CB119E800641C44 /* TomCat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF790AA21CB119E800641C44 /* TomCat.xcdatamodel */,
+			);
+			currentVersion = CF790AA21CB119E800641C44 /* TomCat.xcdatamodel */;
+			path = TomCat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF790A8A1CB119E800641C44 /* Project object */;
+}
