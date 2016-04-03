@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF07AD671CB11AB0001FD536 /* tom.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF07AD661CB11AB0001FD536 /* tom.plist */; };
 		CF790A971CB119E800641C44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF790A961CB119E800641C44 /* main.m */; };
 		CF790A9A1CB119E800641C44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF790A991CB119E800641C44 /* AppDelegate.m */; };
 		CF790A9D1CB119E800641C44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF790A9C1CB119E800641C44 /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF07AD661CB11AB0001FD536 /* tom.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tom.plist; sourceTree = "<group>"; };
 		CF790A921CB119E800641C44 /* TomCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF790A961CB119E800641C44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF790A981CB119E800641C44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				CF790AA61CB119E800641C44 /* LaunchScreen.storyboard */,
 				CF790AA91CB119E800641C44 /* Info.plist */,
 				CF790AA11CB119E800641C44 /* TomCat.xcdatamodeld */,
+				CF07AD661CB11AB0001FD536 /* tom.plist */,
 				CF790A951CB119E800641C44 /* Supporting Files */,
 			);
 			path = TomCat;
@@ -252,6 +255,7 @@
 				CF790AA81CB119E800641C44 /* LaunchScreen.storyboard in Resources */,
 				CF790AA51CB119E800641C44 /* Assets.xcassets in Resources */,
 				CF790AA01CB119E800641C44 /* Main.storyboard in Resources */,
+				CF07AD671CB11AB0001FD536 /* tom.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				CF790AC41CB119E800641C44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF790AC51CB119E800641C44 /* Build configuration list for PBXNativeTarget "TomCatTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				CF790AC71CB119E800641C44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF790AC81CB119E800641C44 /* Build configuration list for PBXNativeTarget "TomCatUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				CF790ACA1CB119E800641C44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
